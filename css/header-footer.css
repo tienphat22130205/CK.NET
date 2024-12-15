@@ -86,8 +86,10 @@
   top: 0;
   left: 0;
   position: fixed;
-  background-color: var(--color-black);
+  background-color: #FFF;
   z-index: 1000000;
+  color: white;
+  background-color: #E30019;
 }
 
 .wrapper .header .header-top {
@@ -97,7 +99,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-black);
+  background-color: #E30019;
   padding: 10px 20px;
   z-index: 10000;
 }
@@ -246,11 +248,12 @@
   margin-right: 5px;
 }
 .header .header-top .info .login {
-  background-color: var(--color-yellow);
+  background-color: #BE1529;
   padding: 10px 20px;
   min-width: 140px;
   display: block;
   border-radius: 5px;
+  color: #FFF;
 }
 
 .header .header-top .info a {
@@ -258,12 +261,13 @@
 }
 
 .header .header-top .info .login:hover {
-  background-color: var(--color-yellow-dark);
+  background-color: rgb(181, 0, 0);
 }
 
 .header .navbar {
-  background-color: var(--color-yellow);
+  background-color: white;
   width: 100%;
+  color: black;
 }
 
 .header .navbar .navbar-list {
